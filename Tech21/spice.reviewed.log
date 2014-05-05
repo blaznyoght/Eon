@@ -1,0 +1,52 @@
+Circuit: * gnetlist -g spice-sdb -o spice.net tech21_spice.sch
+
+WARNING: Less than two connections to node 59.  This node is used by R44.
+WARNING: Less than two connections to node 52.  This node is used by R36.
+WARNING: Less than two connections to node VOUT.  This node is used by R28.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.49741
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 5.49741
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Fri Apr 11 10:48:18 2014
+Total elapsed time: 765.577 seconds.
+
+tnom = 27
+temp = 25
+method = modified trap
+totiter = 1030829
+traniter = 1029153
+tranpoints = 514565
+accept = 506592
+rejected = 7973
+matrix size = 313
+fillins = 7966
+solver = Normal
+Thread vector: 146.8/124.8[2] 25.5/20.7[2] 52.3/42.1[2] 17.3/17.8[1]  2592/500
+Matrix Compiler1:  167186 opcodes  792.9/[568.0]/776.8
+Matrix Compiler2: 163 Ko object code size  138.6/150.4/[123.8]
+
+

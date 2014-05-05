@@ -1,0 +1,58 @@
+noname53	R26-1 R22-3 
+noname52	R44-2 
+noname51	R44-1 C30-2 R43-2 
+noname50	R41-3 R40-2 C29-1 
+noname49	R42-1 R41-1 C27-1 
+noname48	R41-2 C29-2 C27-2 R37-1 
+noname47	R36-2 
+noname46	R35-2 R36-1 C26-2 
+Vout	R28-2 
+GND	Vinput-2 U4-4 U2-11 U1-11 C33-1 U3-4 R48-1 R47-1 C32-1 R46-1 C31-1 V1-2 R43-1 R35-1 R27-1 
+noname45	R28-1 C24-2 R27-2 
+SwitchOn	C21-1 R48-2 C20-2 
+noname44	C20-1 R25-2 
+noname43	R31-2 R24-2 
+noname42	R24-3 C19-1 
+noname41	R24-1 C18-2 
+noname40	R40-1 C25-2 C18-1 
+noname39	R38-1 C28-1 R39-1 U4-6 
+noname38	C30-1 C28-2 R39-2 U4-7 
+noname37	R34-2 R30-1 U4-3 
+noname36	C26-1 R38-2 U4-2 U4-1 
+noname35	C21-2 R23-1 U3-5 
+noname34	C24-1 R30-2 U3-6 U3-7 
+noname33	R32-1 C23-1 R37-2 R31-1 U3-2 
+noname32	R42-2 R25-1 C23-2 R32-2 C19-2 U3-1 
+noname31	U2-10 
+noname30	R33-1 U2-9 U2-8 
+noname29	R33-2 C22-1 R29-1 U2-6 
+noname28	C25-1 R29-2 C22-2 U2-7 
+noname27	R47-2 C17-2 
+noname26	C16-1 R21-2 C15-1 
+noname25	R22-2 C14-1 
+noname24	C15-2 R18-1 U2-12 
+noname23	C14-2 U2-13 U2-14 
+noname22	R19-1 R17-1 
+noname21	C11-1 R17-2 
+noname20	R20-1 R16-1 
+noname19	C10-2 R10-2 U2-3 
+noname18	C9-2 U1-12 R8-2 
+noname17	C8-2 R7-1 
+noname16	C13-1 R16-2 R13-1 U1-9 
+noname15	C12-1 C11-2 R12-1 U1-6 
+noname14	C12-2 U1-10 R12-2 U1-7 
+noname13	C13-2 R13-2 U1-8 R6-1 
+noname12	R11-2 R6-2 R5-1 
+noname11	R15-2 C7-1 C6-2 
+noname10	C6-1 R14-2 C5-1 
+noname9	R4-1 U1-5 C4-2 
+Vin	Vinput-1 C3-1 
+noname8	C16-2 R18-2 U2-1 U2-2 C2-2 
+noname7	R10-1 R9-2 C2-1 
+noname6	C5-2 R22-1 C17-1 U1-2 U1-1 R3-1 
+noname5	C7-2 C4-1 R3-2 
+noname4	C3-2 R2-1 
+noname3	U1-3 R2-2 R1-1 
+Vcc	R26-2 U4-8 U2-4 U1-4 C33-2 U3-8 C32-2 R46-2 R45-1 R45-2 C31-2 V1-1 R34-1 R23-2 U4-5 U3-3 U2-5 R21-1 R20-3 R20-2 R19-3 R19-2 C10-1 R15-1 R14-1 C9-1 C8-1 R11-1 R4-2 R1-2 
+noname2	U1-13 R9-1 U1-14 C1-2 
+noname1	R7-2 R8-1 R5-2 C1-1 

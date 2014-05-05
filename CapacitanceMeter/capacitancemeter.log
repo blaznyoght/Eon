@@ -1,0 +1,22 @@
+Circuit: * C:\Program Files\gEDA\gEDA\bin\gnetlist.exe -g spice-sdb -o capacitancemeter.net capacitancemeter.sch
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon May 05 12:44:43 2014
+Total elapsed time: 0.016 seconds.
+
+tnom = 27
+temp = 25
+method = modified trap
+totiter = 2093
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 8
+fillins = 0
+solver = Normal
+Matrix Compiler1: 300 octets object code size  0.3/0.3/[0.2]
+Matrix Compiler2: off  [0.2]/0.3/0.3
+
+

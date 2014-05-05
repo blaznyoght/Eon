@@ -1,0 +1,8 @@
+.OP
+.AC DEC 20 1Hz 100MegHz
+* .DC VINPUT 0 5 .01
+* .DC VINPUT 1 2 .01
+.tran .02ms 1s
+.plot ac v(Vout) v(Vin)
+.plot tran t v(Vout) v(Vin)
+.print ac v(Vout) v(Vin)

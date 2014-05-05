@@ -1,0 +1,9 @@
+Circuit: * C:\Program Files\gEDA\gEDA\bin\gnetlist.exe -g spice-sdb -o big_muff_spice_test.net big_muff.sch
+
+Unknown model type "<unknown>" -- ignored
+Unknown model type "<unknown>" -- ignored
+Unknown model type "<unknown>" -- ignored
+Unknown model type "<unknown>" -- ignored
+Warning: Multiple definitions of model "unknown" Type: Diode
+Warning: Multiple definitions of model "unknown" Type: Diode
+Fatal Error: Missing model value for Q3

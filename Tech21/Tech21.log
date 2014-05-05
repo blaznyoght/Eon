@@ -1,0 +1,4 @@
+Circuit: * D:\Documents and Settings\pyAillet\Mes documents\Perso\Effects\Tech21\Tech21.asc
+
+Fatal Error: Unknown subcircuit called in:
+   xu1 n001 vout vout opamp aol=100k gbw=10meg
