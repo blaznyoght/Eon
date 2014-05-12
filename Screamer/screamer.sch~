@@ -1,0 +1,395 @@
+v 20110115 2
+C 40000 40000 0 0 0 title-B.sym
+C 40200 50300 1 0 0 resistor-1.sym
+{
+T 40500 50700 5 10 0 0 0 0 1
+device=RESISTOR
+T 40400 50600 5 10 1 1 0 0 1
+refdes=R1
+T 40700 50600 5 10 1 1 0 0 1
+value=10
+}
+C 40200 49800 1 0 0 resistor-1.sym
+{
+T 40500 50200 5 10 0 0 0 0 1
+device=RESISTOR
+T 40400 50100 5 10 1 1 0 0 1
+refdes=R2
+T 40700 50100 5 10 1 1 0 0 1
+value=220
+}
+C 40200 49300 1 0 0 resistor-1.sym
+{
+T 40500 49700 5 10 0 0 0 0 1
+device=RESISTOR
+T 40400 49600 5 10 1 1 0 0 1
+refdes=R3
+T 40200 49300 5 10 1 1 0 0 1
+value=1k
+}
+C 40200 48800 1 0 0 resistor-1.sym
+{
+T 40500 49200 5 10 0 0 0 0 1
+device=RESISTOR
+T 40400 49100 5 10 1 1 0 0 1
+refdes=R4
+T 40200 48800 5 10 1 1 0 0 1
+value=1k
+}
+C 40200 48300 1 0 0 resistor-1.sym
+{
+T 40500 48700 5 10 0 0 0 0 1
+device=RESISTOR
+T 40400 48600 5 10 1 1 0 0 1
+refdes=R5
+T 40200 48300 5 10 1 1 0 0 1
+value=1k
+}
+C 40200 47800 1 0 0 resistor-1.sym
+{
+T 40500 48200 5 10 0 0 0 0 1
+device=RESISTOR
+T 40400 48100 5 10 1 1 0 0 1
+refdes=R6
+T 40200 47800 5 10 1 1 0 0 1
+value=1k
+}
+C 40200 47300 1 0 0 resistor-1.sym
+{
+T 40500 47700 5 10 0 0 0 0 1
+device=RESISTOR
+T 40400 47600 5 10 1 1 0 0 1
+refdes=R7
+T 40200 47300 5 10 1 1 0 0 1
+value=2.2k
+}
+C 40200 46800 1 0 0 resistor-1.sym
+{
+T 40500 47200 5 10 0 0 0 0 1
+device=RESISTOR
+T 40400 47100 5 10 1 1 0 0 1
+refdes=R10
+T 40200 46800 5 10 1 1 0 0 1
+value=2.2M
+}
+C 41400 50300 1 0 0 resistor-1.sym
+{
+T 41700 50700 5 10 0 0 0 0 1
+device=RESISTOR
+T 41600 50600 5 10 1 1 0 0 1
+refdes=R11
+T 41400 50300 5 10 1 1 0 0 1
+value=470k
+}
+C 41400 49800 1 0 0 resistor-1.sym
+{
+T 41700 50200 5 10 0 0 0 0 1
+device=RESISTOR
+T 41600 50100 5 10 1 1 0 0 1
+refdes=R12
+T 41400 49800 5 10 1 1 0 0 1
+value=470k
+}
+C 41400 49300 1 0 0 resistor-1.sym
+{
+T 41700 49700 5 10 0 0 0 0 1
+device=RESISTOR
+T 41600 49600 5 10 1 1 0 0 1
+refdes=R13
+T 41400 49300 5 10 1 1 0 0 1
+value=10k
+}
+C 41400 48800 1 0 0 resistor-1.sym
+{
+T 41700 49200 5 10 0 0 0 0 1
+device=RESISTOR
+T 41600 49100 5 10 1 1 0 0 1
+refdes=R14
+T 41400 48800 5 10 1 1 0 0 1
+value=10k
+}
+C 41400 48300 1 0 0 resistor-1.sym
+{
+T 41700 48700 5 10 0 0 0 0 1
+device=RESISTOR
+T 41600 48600 5 10 1 1 0 0 1
+refdes=R15
+T 41400 48300 5 10 1 1 0 0 1
+value=10k
+}
+C 41400 47800 1 0 0 resistor-1.sym
+{
+T 41700 48200 5 10 0 0 0 0 1
+device=RESISTOR
+T 41600 48100 5 10 1 1 0 0 1
+refdes=R16
+T 41400 47800 5 10 1 1 0 0 1
+value=10k
+}
+C 41400 47300 1 0 0 resistor-1.sym
+{
+T 41700 47700 5 10 0 0 0 0 1
+device=RESISTOR
+T 41600 47600 5 10 1 1 0 0 1
+refdes=R17
+T 41400 47300 5 10 1 1 0 0 1
+value=10k
+}
+C 41400 46800 1 0 0 resistor-1.sym
+{
+T 41700 47200 5 10 0 0 0 0 1
+device=RESISTOR
+T 41600 47100 5 10 1 1 0 0 1
+refdes=R18
+T 41400 46800 5 10 1 1 0 0 1
+value=10k
+}
+C 41400 46300 1 0 0 resistor-1.sym
+{
+T 41700 46700 5 10 0 0 0 0 1
+device=RESISTOR
+T 41600 46600 5 10 1 1 0 0 1
+refdes=R19
+T 41400 46300 5 10 1 1 0 0 1
+value=10k
+}
+C 42600 50300 1 0 0 resistor-1.sym
+{
+T 42900 50700 5 10 0 0 0 0 1
+device=RESISTOR
+T 42800 50600 5 10 1 1 0 0 1
+refdes=RA
+T 42600 50300 5 10 1 1 0 0 1
+value=100
+}
+C 42600 49800 1 0 0 resistor-1.sym
+{
+T 42900 50200 5 10 0 0 0 0 1
+device=RESISTOR
+T 42800 50100 5 10 1 1 0 0 1
+refdes=RB
+T 42600 49800 5 10 1 1 0 0 1
+value=10k
+}
+C 43800 50300 1 0 0 resistor-1.sym
+{
+T 44100 50700 5 10 0 0 0 0 1
+device=RESISTOR
+T 44000 50600 5 10 1 1 0 0 1
+refdes=RLed
+T 43800 50300 5 10 1 1 0 0 1
+value=10k
+}
+C 45000 50200 1 0 0 diode-1.sym
+{
+T 45400 50800 5 10 0 0 0 0 1
+device=DIODE
+T 45300 50700 5 10 1 1 0 0 1
+refdes=D1
+}
+C 45000 49500 1 0 0 diode-1.sym
+{
+T 45400 50100 5 10 0 0 0 0 1
+device=DIODE
+T 45300 50000 5 10 1 1 0 0 1
+refdes=D2
+}
+C 45000 48800 1 0 0 diode-1.sym
+{
+T 45400 49400 5 10 0 0 0 0 1
+device=DIODE
+T 45300 49300 5 10 1 1 0 0 1
+refdes=D3
+}
+C 45000 48100 1 0 0 diode-1.sym
+{
+T 45400 48700 5 10 0 0 0 0 1
+device=DIODE
+T 45300 48600 5 10 1 1 0 0 1
+refdes=D4
+}
+C 46400 50200 1 0 0 capacitor-1.sym
+{
+T 46600 50900 5 10 0 0 0 0 1
+device=CAPACITOR
+T 46600 50700 5 10 1 1 0 0 1
+refdes=C1
+T 46600 51100 5 10 0 0 0 0 1
+symversion=0.1
+T 46400 50200 5 10 1 1 0 0 1
+value=22n
+}
+C 46400 49500 1 0 0 capacitor-1.sym
+{
+T 46600 50200 5 10 0 0 0 0 1
+device=CAPACITOR
+T 46600 50000 5 10 1 1 0 0 1
+refdes=C2
+T 46600 50400 5 10 0 0 0 0 1
+symversion=0.1
+T 46400 49500 5 10 1 1 0 0 1
+value=47p
+}
+C 46400 48800 1 0 0 capacitor-1.sym
+{
+T 46600 49500 5 10 0 0 0 0 1
+device=CAPACITOR
+T 46600 49300 5 10 1 1 0 0 1
+refdes=C3
+T 46600 49700 5 10 0 0 0 0 1
+symversion=0.1
+T 46400 48800 5 10 1 1 0 0 1
+value=100n
+}
+C 46400 48100 1 0 0 capacitor-1.sym
+{
+T 46600 48800 5 10 0 0 0 0 1
+device=CAPACITOR
+T 46600 48600 5 10 1 1 0 0 1
+refdes=C4
+T 46600 49000 5 10 0 0 0 0 1
+symversion=0.1
+T 46400 48100 5 10 1 1 0 0 1
+value=100n
+}
+C 46400 47400 1 0 0 capacitor-1.sym
+{
+T 46600 48100 5 10 0 0 0 0 1
+device=CAPACITOR
+T 46600 47900 5 10 1 1 0 0 1
+refdes=C5
+T 46600 48300 5 10 0 0 0 0 1
+symversion=0.1
+T 46400 47400 5 10 1 1 0 0 1
+value=220n
+}
+C 46400 46700 1 0 0 capacitor-1.sym
+{
+T 46600 47400 5 10 0 0 0 0 1
+device=CAPACITOR
+T 46600 47200 5 10 1 1 0 0 1
+refdes=C6
+T 46600 47600 5 10 0 0 0 0 1
+symversion=0.1
+T 46400 46700 5 10 1 1 0 0 1
+value=220n
+}
+C 46400 46000 1 0 0 capacitor-1.sym
+{
+T 46600 46700 5 10 0 0 0 0 1
+device=CAPACITOR
+T 46600 46500 5 10 1 1 0 0 1
+refdes=C7
+T 46600 46900 5 10 0 0 0 0 1
+symversion=0.1
+T 46400 46000 5 10 1 1 0 0 1
+value=220n
+}
+C 46400 45300 1 0 0 capacitor-1.sym
+{
+T 46600 46000 5 10 0 0 0 0 1
+device=CAPACITOR
+T 46600 45800 5 10 1 1 0 0 1
+refdes=C8
+T 46600 46200 5 10 0 0 0 0 1
+symversion=0.1
+T 46400 45300 5 10 1 1 0 0 1
+value=1u
+}
+C 46400 44600 1 0 0 capacitor-1.sym
+{
+T 46600 45300 5 10 0 0 0 0 1
+device=CAPACITOR
+T 46600 45100 5 10 1 1 0 0 1
+refdes=C9
+T 46600 45500 5 10 0 0 0 0 1
+symversion=0.1
+T 46400 44600 5 10 1 1 0 0 1
+value=1u
+}
+C 47700 50200 1 0 0 capacitor-2.sym
+{
+T 47900 50900 5 10 0 0 0 0 1
+device=POLARIZED_CAPACITOR
+T 47900 50700 5 10 1 1 0 0 1
+refdes=C10
+T 47900 51100 5 10 0 0 0 0 1
+symversion=0.1
+T 47700 50200 5 10 1 1 0 0 1
+value=10u
+}
+C 47700 48800 1 0 0 capacitor-2.sym
+{
+T 47900 49500 5 10 0 0 0 0 1
+device=POLARIZED_CAPACITOR
+T 47900 49300 5 10 1 1 0 0 1
+refdes=C12
+T 47900 49700 5 10 0 0 0 0 1
+symversion=0.1
+T 47700 48800 5 10 1 1 0 0 1
+value=56u
+}
+C 47700 47400 1 0 0 capacitor-2.sym
+{
+T 47900 48100 5 10 0 0 0 0 1
+device=POLARIZED_CAPACITOR
+T 47900 47900 5 10 1 1 0 0 1
+refdes=C14
+T 47900 48300 5 10 0 0 0 0 1
+symversion=0.1
+T 47700 47400 5 10 1 1 0 0 1
+value=470u
+}
+C 47700 49500 1 0 0 capacitor-1.sym
+{
+T 47900 50000 5 10 1 1 0 0 1
+refdes=C11
+T 47900 50400 5 10 0 0 0 0 1
+symversion=0.1
+}
+C 47700 48100 1 0 0 capacitor-1.sym
+{
+T 47900 48800 5 10 0 0 0 0 1
+device=CAPACITOR
+T 47900 48600 5 10 1 1 0 0 1
+refdes=C13
+T 47900 49000 5 10 0 0 0 0 1
+symversion=0.1
+T 47700 48100 5 10 1 1 0 0 1
+value=1u
+}
+C 45000 47300 1 0 0 led-1.sym
+{
+T 45800 47900 5 10 0 0 0 0 1
+device=LED
+T 45800 47700 5 10 1 1 0 0 1
+refdes=LED1
+T 45800 48100 5 10 0 0 0 0 1
+symversion=0.1
+}
+C 49100 49800 1 0 0 dual-opamp-1.sym
+{
+T 49300 52100 5 10 0 0 0 0 1
+device=DUAL_OPAMP
+T 49300 50700 5 10 1 1 0 0 1
+refdes=U1
+T 49300 51700 5 10 0 0 0 0 1
+footprint=SO8
+T 49300 52300 5 10 0 0 0 0 1
+symversion=0.2
+T 49100 49800 5 10 0 0 0 0 1
+slot=1
+}
+C 49100 48400 1 0 0 dual-opamp-1.sym
+{
+T 49300 50700 5 10 0 0 0 0 1
+device=DUAL_OPAMP
+T 49300 49300 5 10 1 1 0 0 1
+refdes=U1
+T 49300 50300 5 10 0 0 0 0 1
+footprint=SO8
+T 49300 50900 5 10 0 0 0 0 1
+symversion=0.2
+T 49100 48400 5 10 0 0 0 0 1
+slot=2
+}
