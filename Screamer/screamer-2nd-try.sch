@@ -418,7 +418,7 @@ C 48500 51200 1 270 0 4PDT-2.sym
 T 51460 50680 5 10 0 0 270 0 1
 device=Quad_Two_Way_Switch (type 2)
 T 48520 50810 5 10 1 1 0 0 1
-refdes=S1
+refdes=X1
 T 51210 50680 5 10 0 0 270 0 1
 footprint=CONNECTOR 2 6
 T 51710 50690 5 10 0 0 270 0 1
@@ -431,7 +431,7 @@ C 49800 53300 1 0 0 4PDT-2.sym
 T 50320 56260 5 10 0 0 0 0 1
 device=Quad_Two_Way_Switch (type 2)
 T 50020 54110 5 10 1 1 0 0 1
-refdes=S2
+refdes=X2
 T 50320 56010 5 10 0 0 0 0 1
 footprint=CONNECTOR 2 6
 T 50310 56510 5 10 0 0 0 0 1
@@ -444,7 +444,7 @@ C 40100 48400 1 0 0 4PDT-2.sym
 T 40620 51360 5 10 0 0 0 0 1
 device=Quad_Two_Way_Switch (type 2)
 T 40620 49210 5 10 1 1 0 0 1
-refdes=S3
+refdes=X3
 T 40620 51110 5 10 0 0 0 0 1
 footprint=CONNECTOR 2 6
 T 40610 51610 5 10 0 0 0 0 1
@@ -457,7 +457,7 @@ C 39900 40700 1 0 1 4PDT-2.sym
 T 39380 43660 5 10 0 0 0 6 1
 device=Quad_Two_Way_Switch (type 2)
 T 39380 41510 5 10 1 1 0 6 1
-refdes=S3
+refdes=X3
 T 39380 43410 5 10 0 0 0 6 1
 footprint=CONNECTOR 2 6
 T 39390 43910 5 10 0 0 0 6 1
@@ -470,7 +470,7 @@ C 40100 44000 1 180 1 4PDT-2.sym
 T 40620 41040 5 10 0 0 180 6 1
 device=Quad_Two_Way_Switch (type 2)
 T 40620 43190 5 10 1 1 180 6 1
-refdes=S3
+refdes=X3
 T 40620 41290 5 10 0 0 180 6 1
 footprint=CONNECTOR 2 6
 T 40610 40790 5 10 0 0 180 6 1
@@ -495,7 +495,7 @@ C 49500 44500 1 90 1 pot-1.sym
 T 48600 43700 5 10 0 0 90 6 1
 device=VARIABLE_RESISTOR
 T 50200 44100 5 10 1 1 180 2 1
-refdes=RLEVEL
+refdes=XLEVEL
 T 48000 43700 5 10 0 0 90 6 1
 footprint=none
 }
@@ -504,7 +504,7 @@ C 52700 52700 1 0 0 pot-1.sym
 T 53500 53600 5 10 0 0 0 0 1
 device=VARIABLE_RESISTOR
 T 53300 53100 5 10 1 1 0 0 1
-refdes=RDRIVE
+refdes=XDRIVE
 T 53500 54200 5 10 0 0 0 0 1
 footprint=none
 }
@@ -513,7 +513,7 @@ C 52800 45700 1 0 0 pot-1.sym
 T 53600 46600 5 10 0 0 0 0 1
 device=VARIABLE_RESISTOR
 T 53400 46100 5 10 1 1 0 0 1
-refdes=RTONE
+refdes=XTONE
 T 53600 47200 5 10 0 0 0 0 1
 footprint=none
 }
@@ -661,3 +661,67 @@ N 42200 43400 42400 43400 4
 N 45200 43400 45200 43600 4
 N 55700 43400 56800 43400 4
 N 56800 43400 56800 48700 4
+C 36100 49700 1 0 0 spice-directive-1.sym
+{
+T 36200 50000 5 10 0 1 0 0 1
+device=directive
+T 36200 50100 5 10 1 1 0 0 1
+refdes=A1
+T 36200 49800 5 10 0 1 0 0 1
+file=unknown
+T 36200 49800 5 10 1 1 0 0 1
+value=.options TEMP=25
+}
+C 36100 49100 1 0 0 spice-include-1.sym
+{
+T 36200 49400 5 10 0 1 0 0 1
+device=include
+T 36200 49500 5 10 1 1 0 0 1
+refdes=A2
+T 36600 49200 5 10 1 1 0 0 1
+file=./Simulate.cmd
+}
+C 36100 48300 1 0 0 spice-model-1.sym
+{
+T 36200 49000 5 10 0 1 0 0 1
+device=model
+T 36200 48900 5 10 1 1 0 0 1
+refdes=A3
+T 37400 48600 5 10 1 1 0 0 1
+model-name=1N4148
+T 36600 48400 5 10 1 1 0 0 1
+file=../models/1N418.mod
+}
+C 36100 47500 1 0 0 spice-model-1.sym
+{
+T 36200 48200 5 10 0 1 0 0 1
+device=model
+T 36200 48100 5 10 1 1 0 0 1
+refdes=A4
+T 37400 47800 5 10 1 1 0 0 1
+model-name=1N4007
+T 36600 47600 5 10 1 1 0 0 1
+file=../models/1N4007.mod
+}
+C 36100 46700 1 0 0 spice-model-1.sym
+{
+T 36200 47400 5 10 0 1 0 0 1
+device=model
+T 36200 47300 5 10 1 1 0 0 1
+refdes=A5
+T 37400 47000 5 10 1 1 0 0 1
+model-name=448RC
+T 36600 46800 5 10 1 1 0 0 1
+file=../models/448RC.301
+}
+C 36100 45900 1 0 0 spice-model-1.sym
+{
+T 36200 46600 5 10 0 1 0 0 1
+device=model
+T 36200 46500 5 10 1 1 0 0 1
+refdes=A6
+T 37400 46200 5 10 1 1 0 0 1
+model-name=2N3904
+T 36600 46000 5 10 1 1 0 0 1
+file=../models/2N3904.mod
+}
