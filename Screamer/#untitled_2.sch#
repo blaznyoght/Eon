@@ -1,0 +1,65 @@
+v 20121123 2
+C 40000 40000 0 0 0 title-B.sym
+C 45600 47900 1 0 0 spice-subcircuit-IO-1.sym
+{
+T 46500 48300 5 10 0 1 0 0 1
+device=spice-IO
+T 46450 48150 5 10 1 1 0 0 1
+refdes=P1
+}
+C 45600 47300 1 0 0 spice-subcircuit-IO-1.sym
+{
+T 46500 47700 5 10 0 1 0 0 1
+device=spice-IO
+T 46450 47550 5 10 1 1 0 0 1
+refdes=P2
+}
+C 45600 46800 1 0 0 spice-subcircuit-IO-1.sym
+{
+T 46500 47200 5 10 0 1 0 0 1
+device=spice-IO
+T 46450 47050 5 10 1 1 0 0 1
+refdes=P3
+}
+C 45600 46200 1 0 0 spice-subcircuit-IO-1.sym
+{
+T 46500 46600 5 10 0 1 0 0 1
+device=spice-IO
+T 46450 46450 5 10 1 1 0 0 1
+refdes=P4
+}
+C 45600 45600 1 0 0 spice-subcircuit-IO-1.sym
+{
+T 46500 46000 5 10 0 1 0 0 1
+device=spice-IO
+T 46450 45850 5 10 1 1 0 0 1
+refdes=P5
+}
+C 45600 45100 1 0 0 spice-subcircuit-IO-1.sym
+{
+T 46500 45500 5 10 0 1 0 0 1
+device=spice-IO
+T 46450 45350 5 10 1 1 0 0 1
+refdes=P6
+}
+C 45600 44600 1 0 0 spice-subcircuit-IO-1.sym
+{
+T 46500 45000 5 10 0 1 0 0 1
+device=spice-IO
+T 46450 44850 5 10 1 1 0 0 1
+refdes=P?
+}
+C 45600 44100 1 0 0 spice-subcircuit-IO-1.sym
+{
+T 46500 44500 5 10 0 1 0 0 1
+device=spice-IO
+T 46450 44350 5 10 1 1 0 0 1
+refdes=P?
+}
+C 45600 43600 1 0 0 spice-subcircuit-IO-1.sym
+{
+T 46500 44000 5 10 0 1 0 0 1
+device=spice-IO
+T 46450 43850 5 10 1 1 0 0 1
+refdes=P?
+}
