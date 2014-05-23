@@ -1,0 +1,46 @@
+Circuit: * C:\Program Files\gEDA\gEDA\bin\gnetlist.exe -g spice-sdb -o screamer-2nd-try-ltspice.net screamer-2nd-try.sch
+
+WARNING: Node UNCONNECTED_PIN-1 is floating.
+
+WARNING: Less than two connections to node 30.  This node is used by R:3.2:1.
+WARNING: Less than two connections to node UNCONNECTED_PIN-1.  This node is used by C12.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5165
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.48432
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Fri May 23 15:36:18 2014
+Total elapsed time: 45.939 seconds.
+
+tnom = 27
+temp = 25
+method = modified trap
+totiter = 952313
+traniter = 950926
+tranpoints = 475461
+accept = 475307
+rejected = 154
+matrix size = 93
+fillins = 312
+solver = Alternate
+Matrix Compiler1: 32.2 Ko object code size  11.9/9.3/[4.6]
+Matrix Compiler2: 14.7 Ko object code size  4.7/5.3/[2.1]
+
+

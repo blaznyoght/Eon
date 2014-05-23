@@ -1,4 +1,4 @@
-v 20121123 2
+v 20121203 2
 C 40000 40000 0 0 0 title-B.sym
 C 42300 41000 1 0 0 resistor-1.sym
 {
@@ -385,7 +385,7 @@ C 50900 48300 1 0 0 dual-opamp-1.sym
 T 51100 50600 5 10 0 0 0 0 1
 device=DUAL_OPAMP
 T 51100 49200 5 10 1 1 0 0 1
-refdes=U1
+refdes=X1
 T 51100 50200 5 10 0 0 0 0 1
 footprint=SO8
 T 51100 50800 5 10 0 0 0 0 1
@@ -402,7 +402,7 @@ C 53700 43200 1 0 1 dual-opamp-1.sym
 T 53500 45500 5 10 0 0 0 6 1
 device=DUAL_OPAMP
 T 53500 44100 5 10 1 1 0 6 1
-refdes=U1
+refdes=X1
 T 53500 45100 5 10 0 0 0 6 1
 footprint=SO8
 T 53500 45700 5 10 0 0 0 6 1
