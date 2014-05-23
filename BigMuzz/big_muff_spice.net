@@ -86,14 +86,14 @@
 ;.AC DEC 20 1Hz 100MegHz
 ;* .DC VINPUT 0 5 .01
 ;* .DC VINPUT 1 2 .01
-.tran 0.1ms 2.45s
+.tran 2.45s
 ;.plot ac v(Vout) v(Vin)
 ;.plot tran t v(Vout) v(Vin) v(Vcc:2) v(63) v(4) v(Bypass) v(7) v(41) v(64) v(48) v(42) v(EqIn) v(EqOut) v(SwitchOn)
 ;.print ac v(Vout) v(Vin) v(Vcc:2) v(63) v(4) v(Bypass) v(7) v(41) v(64) v(48) v(42) v(EqIn) v(EqOut) v(SwitchOn)
 ;.plot tran t v(Vout) v(Vin)
 ;.print ac v(Vout) v(Vin)
 .options TEMP=25
-.wave "D:/Perso/Effects/Tech21/Tech21/bmout3.wav" 16 22050 Vout
+.wave "D:/Perso/Effects/Eon/Sound/bmout3_normal.wav" 16 22050 Vout
 ;Vinput Vin 0 dc 0 ac 1 sin(0 1 300Hz)
 RVOLB 0 Vout 50k
 RVOLT Vout 21 50k
@@ -102,11 +102,8 @@ RTONT 22 9 50k
 RSUSB 20 24 50k
 RSUST 24 23 50k
 D4 15 25 1N914
-.MODEL unknown D (1N914)
 D3 25 15 1N914
-.MODEL unknown D (1N914)
 D2 4 5 1N914
-.MODEL unknown D (1N914)
 C13 15 14 1u
 C12 17 15 500p
 C11 13 4 500p
@@ -129,11 +126,8 @@ R17 17 15 470k
 R16 0 13 100k
 R15 13 4 470k
 Q4 11 3 18 2N5179
-.MODEL unknown <unknown> (2N5179)
 Q3 15 17 16 2N5179
-.MODEL unknown <unknown> (2N5133)
 Q2 4 13 12 2N5179
-.MODEL unknown <unknown> (2N5133)
 R14 0 3 100k
 R13 11 1 39k
 R12 14 13 10k
@@ -148,10 +142,9 @@ R4 0 7 2.2k
 R3 0 8 100k
 R2 Vin 2 36k
 Q1 6 8 7 2N5179
-.MODEL unknown <unknown> (2N5133)
 D1 5 4 1N914
 C1 2 3 1u
 ;Vinput Vin 0 ac 1 sin(0 1 300Hz)
-Vinput Vin 0 wavefile="D:/Perso/Effects/Tech21/Tech21/test.wav" chan=0
+Vinput Vin 0 wavefile="D:/Perso/Effects/Eon/Sound/test.wav" chan=0
 V1 1 0 DC 9V
 .end

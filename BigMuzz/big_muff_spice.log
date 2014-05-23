@@ -1,15 +1,9 @@
 Circuit: * gnetlist -g spice-sdb -o big_muff_spice.net big_muff.sch
 
-Unknown model type "<unknown>" -- ignored
-Unknown model type "<unknown>" -- ignored
-Unknown model type "<unknown>" -- ignored
-Unknown model type "<unknown>" -- ignored
-Warning: Multiple definitions of model "unknown" Type: Diode
-Warning: Multiple definitions of model "unknown" Type: Diode
 Direct Newton iteration for .op point succeeded.
 
-Date: Fri Apr 11 17:47:35 2014
-Total elapsed time: 23.845 seconds.
+Date: Fri May 23 12:14:31 2014
+Total elapsed time: 21.563 seconds.
 
 tnom = 27
 temp = 25
@@ -22,7 +16,7 @@ rejected = 2735
 matrix size = 45
 fillins = 16
 solver = Normal
-Matrix Compiler1: 3.99 Ko object code size  2.0/1.8/[0.6]
-Matrix Compiler2: 4.08 Ko object code size  1.0/1.2/[1.0]
+Matrix Compiler1: 3.99 Ko object code size  1.9/2.1/[0.7]
+Matrix Compiler2: 4.08 Ko object code size  2.0/1.2/[1.0]
 
 
