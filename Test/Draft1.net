@@ -1,0 +1,9 @@
+*
+XU1 NC_01 NC_02 NC_03 NC_04 NC_05 LT1028
+R1 NC_06 NC_07 R
+R2 NC_08 NC_09 R
+C1 NC_10 NC_11 C
+C2 NC_12 NC_13 C
+.lib LTC.lib
+.backanno
+.end
