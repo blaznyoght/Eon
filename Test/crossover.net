@@ -4,9 +4,9 @@ XU2 N004 LowPassOut Vcc 0 LowPassOut LT1028
 R1 N003 N005 10k
 R2 N004 N003 10k
 R3 HighPassOut N010 10k
-R4 N011 0 10k
+R4 N011 Vcc2 10k
 C1 LowPassOut N003 10n
-C2 N004 0 10n
+C2 N004 Vcc2 10n
 C3 N010 N005 10n
 C4 N011 N010 10n
 XU3 N007 N005 Vcc 0 N005 LT1028
@@ -20,13 +20,13 @@ C6 Vcc2 0 220µ
 C7 Vcc 0 220µ
 V2 Vin 0 SINE(0 1 300) AC 1V 0
 XU4 LowPassOut N001 Vcc 0 N002 LT1028
-XU5 HighPassOut N008 Vcc 0 N009 LT1028
+XU5 HighPassOut N008 Vcc Vcc N009 LT1028
 R5 N002 Vout 10k
 R6 Vout N009 10k
 R11 N009 N008 100k
-R12 N008 0 100
+R12 N008 Vcc2 100
 R13 N002 N001 50k
-R14 N001 0 1k
+R14 N001 Vcc2 1k
 ;.wave "D:/Perso/Effects/Eon/Sound/co_out.wav" 16 22050 Vout
 ;.tran 2.45
 * wavefile="D:/Perso/Effects/Eon/Sound/test.wav" chan=0
